@@ -1,0 +1,8 @@
+{
+  "name": "Dr Meriem DLIMI - Plastic Surgeon Marrakesh",
+  "description": "Official medical landing page for Dr Meriem DLIMI, board-certified plastic and aesthetic surgeon in Marrakesh 46000 Morocco. Trilingual in French, Arabic, and English with instant WhatsApp booking, 4.9 star Google rating, and clinic location.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

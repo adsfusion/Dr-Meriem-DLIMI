@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr Meriem DLIMI | Chirurgie Plastique, Reconstructrice et Esthétique Marrakech</title>
+    <meta name="description" content="Cabinet de Chirurgie Plastique et Esthétique du Dr Meriem DLIMI à Marrakech 46000. Noté 4.9⭐ (68 avis). Spécialiste chirurgie du visage, silhouette, mammaire et médecine esthétique. Prise de rendez-vous WhatsApp." />
+    <meta name="keywords" content="Plastic surgeon Marrakesh 46000, Chirurgien plastique Marrakech, Dr Meriem DLIMI, Chirurgie esthétique Marrakech, دكتورة مريم الدليمي مراكش, Centre Amazighi EMS, Rhinoplastie Marrakech, Liposuccion Marrakech" />
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Dr Meriem DLIMI - Chirurgien Plastique & Esthétique Marrakech" />
+    <meta property="og:description" content="Cabinet de Chirurgie Plastique et Esthétique du Dr Meriem DLIMI à Marrakech. Note 4.9⭐ sur Google. Consultation et réservation WhatsApp." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ar_MA" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Geo & Local SEO -->
+    <meta name="geo.region" content="MA-07" />
+    <meta name="geo.placename" content="Marrakesh 46000" />
+    <meta name="geo.position" content="31.6578362;-8.0228464" />
+    <meta name="ICBM" content="31.6578362, -8.0228464" />
+
+    <!-- Google Fonts: Inter, Tajawal, Playfair Display, Cormorant Garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) for Local Business / Physician -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PlasticSurgery",
+      "name": "Dr Meriem DLIMI - Chirurgie Plastique et Esthétique",
+      "alternateName": ["Dr Meriem DLIMI", "دكتورة مريم الدليمي"],
+      "image": "https://maps.google.com/maps/place/?q=place_id:ChIJ--fUIF7vrw0ROmbIyR9Wbag",
+      "telephone": "+212666123085",
+      "priceRange": "$$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "bureau 4, CENTRE AMAZIGHI EMS, immeuble 6 Boulevard My Abdellah",
+        "addressLocality": "Marrakesh",
+        "postalCode": "46000",
+        "addressCountry": "MA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.6578362,
+        "longitude": -8.022846399999999
+      },
+      "url": "https://maps.google.com/maps/place/?q=place_id:ChIJ--fUIF7vrw0ROmbIyR9Wbag",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "68",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#FAF9F6] text-[#1E293B] antialiased selection:bg-[#0F283D] selection:text-[#F4EDE4]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- CRITICAL JS REQUIREMENT: Direct WhatsApp Booking Form Interceptor -->
+    <script>
+      (function() {
+        function initBookingHandler() {
+          var form = document.getElementById('bookingForm') || document.querySelector('form[data-booking-form="true"]') || document.querySelector('form');
+          if (!form) return;
+          
+          // Avoid duplicate listeners
+          if (form.getAttribute('data-listener-attached') === 'true') return;
+          form.setAttribute('data-listener-attached', 'true');
+
+          form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var nameInput = form.querySelector('[name="name"]') || form.querySelector('#patientName') || form.querySelector('input[type="text"]');
+            var phoneInput = form.querySelector('[name="phone"]') || form.querySelector('#patientPhone') || form.querySelector('input[type="tel"]');
+            var serviceInput不易 = form.querySelector('[name="service"]') || form.querySelector('#patientService') || form.querySelector('select');
+            var notesInput = form.querySelector('[name="notes"]') || form.querySelector('#patientNotes') || form.querySelector('textarea');
+
+            var patientName = nameInput ? nameInput.value.trim() : '';
+            var patientPhone不易 = phoneInput ? phoneInput.value.trim() : '';
+            var selectedService = serviceInput不易 ? serviceInput不易.value : '';
+            var notes = notesInput ? notesInput.value.trim() : '';
+
+            // Detect active language from document or form
+            var lang = document.documentElement.lang || 'fr';
+            var message = '';
+
+            if (lang === 'ar') {
+              message = 'مرحباً دكتورة مريم الدليمي، أود حجز موعد استشارة:' +
+                '\n- الاسم: ' + (patientName || 'غير محدد') +
+                '\n- الهاتف: ' + (patientPhone不易 || 'غير محدد') +
+                '\n- الإجراء المطلوب: ' + (selectedService || 'استشارة عامة') +
+                (notes ? '\n- ملاحظات إضافية: ' + notes : '') +
+                '\n\nشكراً جزيلاً.';
+            } else if (lang === 'en') {
+              message = 'Hello Dr. Meriem DLIMI, I would like to book a consultation appointment:' +
+                '\n- Patient Name: ' + (patientName || 'Not specified') +
+                '\n- Phone: ' + (patientPhone不易 || 'Not specified') +
+                '\n- Requested Service: ' + (selectedService || 'General Consultation') +
+                (notes ? '\n- Additional details: ' + notes : '') +
+                '\n\nThank you.';
+            } else {
+              message = 'Bonjour Dr Meriem DLIMI, je souhaite prendre un rendez-vous de consultation :' +
+                '\n- Nom du patient : ' + (patientName || 'Non spécifié') +
+                '\n- Téléphone : ' + (patientPhone不易 || 'Non spécifié') +
+                '\n- Intervention / Service souhaité : ' + (selectedService || 'Consultation générale') +
+                (notes ? '\n- Précisions : ' + notes : '') +
+                '\n\nMerci.';
+            }
+
+            var whatsappUrl = 'https://wa.me/212666123085?text=' + encodeURIComponent(message);
+            window.open(whatsappUrl, '_blank');
+          });
+        }
+
+        // Initialize on DOMContentLoaded and on periodic checks (for React hydration)
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', initBookingHandler);
+        } else {
+          initBookingHandler();
+        }
+        setInterval(initBookingHandler, 1000);
+      })();
+    </script>
+  </body>
+</html>
+
